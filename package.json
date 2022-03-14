@@ -5,12 +5,10 @@
   "main": "src/app.js",
   "dependencies": {
     "express": "^4.17.1",
-    "socket.io": "^2.3.0",
-    "nodemon": "^2.0.2"
+    "nodemon": "^2.0.15",
+    "socket.io": "^2.3.0"
   },
-  "devDependencies": {
-    "nodemon": "^2.0.2"
-  },
+  "devDependencies": {},
   "scripts": {
     "start": "nodemon --watch \"src/\" --exec \"node src/app.js\"",
     "start:dev": "nodemon nodemon --watch \"src/\" --exec \"node src/app.js\"",
